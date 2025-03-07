@@ -414,9 +414,9 @@ uGoarma.fit<-function(y, ar = NA, ma = NA, tau = .5, link = "logit", h = 1,
 
 # set.seed(2)
 # 
-# source("simu.ugoarma.R")
+source("simu_ugo_arma.R")
 # 
-# y<-simu.ugoarma(100,phi=0.2,theta=0.4, alpha=1,sigma=6, tau=0.5,freq=12,link="logit")
+y<-simu.ugoarma(100,phi=0.2,theta=0.4, alpha=1,sigma=6, tau=0.5,freq=12,link="logit")
 # 
 # fit<-uGoarma.fit(y, ma=1, ar=1)
 # 
